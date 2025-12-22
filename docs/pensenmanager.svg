@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.87387,0,0,0.701754,-2.73874,20.7719)">
+        <rect x="10" y="16" width="222" height="342" style="fill:rgb(204,204,204);stroke:rgb(33,33,33);stroke-width:1.41px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,247.075,-100.759)">
+        <g transform="matrix(14,0,0,14,92.8817,155.993)">
+        </g>
+        <text x="52.45px" y="155.993px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:14px;">Server</text>
+    </g>
+    <g id="Authentifizierungsserver" transform="matrix(1,0,0,1,528,176)">
+        <g transform="matrix(0.720721,0,0,0.0935673,8.79279,30.5029)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(255,205,210);stroke:rgb(33,33,33);stroke-width:3.89px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,23.3763,-104.402)">
+            <g transform="matrix(14,0,0,14,49.4887,155.993)">
+            </g>
+            <g transform="matrix(14,0,0,14,53.6327,155.993)">
+            </g>
+            <g transform="matrix(14,0,0,14,147.713,155.993)">
+            </g>
+            <text x="-2.381px" y="155.993px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:14px;">Authentiﬁzierungsserver</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-19.4134,-187.133)">
+            <g transform="matrix(10,0,0,10,153.109,212.165)">
+            </g>
+            <text x="40.282px" y="212.165px" style="font-family:'Helvetica';font-size:10px;fill:rgb(24,26,28);">login.microsoftonline.com</text>
+        </g>
+    </g>
+    <g id="DBMS" transform="matrix(1,0,0,1,-175,-7)">
+        <g transform="matrix(0.720721,0,0,0.168251,200.793,52.308)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(255,205,210);stroke:rgb(33,33,33);stroke-width:3.82px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,215.117,-83.3012)">
+            <g transform="matrix(14,0,0,14,136.583,155.993)">
+            </g>
+            <text x="8.749px" y="155.993px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:14px;">DMBS (Postgr<tspan x="97.943px 105.461px " y="155.993px 155.993px ">eS</tspan>QL)</text>
+        </g>
+    </g>
+    <g id="Anwendungsserver" transform="matrix(1,0,0,1,46,44.771)">
+        <g transform="matrix(0.459459,0,0,0.0935673,11.4054,30.5029)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(187,222,251);stroke:rgb(33,33,33);stroke-width:6.03px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-6.21173,-103.072)">
+            <g transform="matrix(14,0,0,14,106.644,155.993)">
+            </g>
+            <text x="38.688px" y="155.993px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:14px;">Datenbank</text>
+        </g>
+    </g>
+    <g id="Anwendungsserver1" serif:id="Anwendungsserver" transform="matrix(1,0,0,1,224,48)">
+        <g transform="matrix(0.720721,0,0,0.0935673,8.79279,30.5029)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(187,222,251);stroke:rgb(33,33,33);stroke-width:3.89px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,23.3763,-104.402)">
+            <g transform="matrix(14,0,0,14,132.684,155.993)">
+            </g>
+            <text x="12.648px" y="155.993px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:14px;">Anwendungsserver</text>
+        </g>
+    </g>
+    <g id="Webserver" transform="matrix(0.98708,0,0,1.10145,-173.313,83.0725)">
+        <g transform="matrix(1.74324,0,0,0.201754,190.568,84.7719)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(255,205,210);stroke:rgb(33,33,33);stroke-width:1.63px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,324.611,-53.9932)">
+            <g transform="matrix(14,0,0,14,105.839,155.993)">
+            </g>
+            <text x="39.493px" y="155.993px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:14px;">W<tspan x="51.659px 59.177px " y="155.993px 155.993px ">eb</tspan>server</text>
+        </g>
+    </g>
+    <g id="api.pensen.gymbeispiel.ch" transform="matrix(1,0,0,1,223.073,176)">
+        <g transform="matrix(0.720721,0,0,0.0935673,9.71933,30.5029)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(200,230,201);stroke:rgb(33,33,33);stroke-width:3.89px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,16.8638,-104.402)">
+            <g transform="matrix(10,0,0,10,123.002,155.993)">
+            </g>
+            <text x="5.151px" y="155.993px" style="font-family:'Helvetica';font-size:10px;fill:rgb(24,26,28);">api.pensen.gymbeispiel.ch</text>
+        </g>
+    </g>
+    <g id="pensen.gymbeispiel.ch" transform="matrix(1,0,0,1,32,176)">
+        <g transform="matrix(0.720721,0,0,0.0935673,8.79279,30.5029)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(187,222,251);stroke:rgb(33,33,33);stroke-width:3.89px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,9.20103,-105.115)">
+            <g transform="matrix(10,0,0,10,125.522,155.993)">
+            </g>
+            <text x="23.794px" y="155.993px" style="font-family:'Helvetica';font-size:10px;fill:rgb(24,26,28);">pensen.gymbeispiel.ch</text>
+        </g>
+    </g>
+    <g id="Client--Browser-" serif:id="Client (Browser)" transform="matrix(1,0,0,1,32,71)">
+        <g transform="matrix(0.720721,0,0,0.0935673,104.793,279.503)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(255,249,196);stroke:rgb(33,33,33);stroke-width:3.89px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,119.362,144.745)">
+            <g transform="matrix(14,0,0,14,122.52,155.993)">
+            </g>
+            <text x="22.812px" y="155.993px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:14px;">Cli<tspan x="39.836px " y="155.993px ">e</tspan>nt (Br<tspan x="81.066px 89.102px " y="155.993px 155.993px ">ow</tspan>ser)</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,32,0)">
+        <g transform="matrix(1,-0,-0,1,-32,0)">
+            <path d="M180.5,343L176,352L171.5,343L176,347.5L180.5,343Z"/>
+            <path d="M176,240L176,347.5" style="fill:none;stroke:black;stroke-width:2px;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,160.699,-15)">
+        <g transform="matrix(1,-0,-0,1,-160.699,15)">
+            <path d="M201,148.5L192,144L201,139.5L196.5,144L201,148.5Z"/>
+            <path d="M256,112L256,144L196.5,144" style="fill:none;stroke:black;stroke-width:2px;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,65.8094,-9.09452)">
+        <g transform="matrix(10,0,0,10,103.641,295.325)">
+        </g>
+        <text x="2.321px" y="295.325px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">1. Client herunterladen</text>
+    </g>
+    <g transform="matrix(1,0,0,1,263.714,-10.1045)">
+        <g transform="matrix(10,0,0,10,40.8556,295.325)">
+        </g>
+        <g transform="matrix(10,0,0,10,43.8156,295.325)">
+        </g>
+        <g transform="matrix(10,0,0,10,92.8956,295.325)">
+        </g>
+        <text x="13.066px" y="295.325px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">2. conﬁg-Request</text>
+    </g>
+    <g transform="matrix(1,0,0,1,296.419,-143.085)">
+        <g transform="matrix(10,0,0,10,78.1606,295.325)">
+        </g>
+        <text x="27.801px" y="295.325px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">Forwar<tspan x="58.711px 64.641px " y="295.325px 295.325px ">di</tspan>ng</text>
+    </g>
+    <g transform="matrix(1,0,0,1,267.909,6.81548)">
+        <g transform="matrix(10,0,0,10,97.1506,295.325)">
+        </g>
+        <text x="8.811px" y="295.325px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">4. weiter<tspan x="46.771px 52.141px " y="295.325px 295.325px ">e </tspan>Requests</text>
+    </g>
+    <g transform="matrix(1,0,0,1,521.685,63.8955)">
+        <g transform="matrix(10,0,0,10,58.1856,295.325)">
+        </g>
+        <g transform="matrix(10,0,0,10,61.1456,295.325)">
+        </g>
+        <g transform="matrix(10,0,0,10,95.9456,295.325)">
+        </g>
+        <text x="10.016px" y="295.325px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">3. Authentiﬁzierung</text>
+    </g>
+    <g transform="matrix(1,0,0,1,466.729,-141.105)">
+        <g transform="matrix(10,0,0,10,36.2206,295.325)">
+        </g>
+        <g transform="matrix(10,0,0,10,39.1806,295.325)">
+        </g>
+        <g transform="matrix(10,0,0,10,101.041,295.325)">
+        </g>
+        <text x="4.921px" y="295.325px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">5. Zertiﬁkat anfor<tspan x="80.671px 86.601px 91.971px 95.481px " y="295.325px 295.325px 295.325px 295.325px ">dern</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,139.084,0)">
+        <g transform="matrix(1,-0,-0,1,-139.084,0)">
+            <path d="M266.5,343L271,352L275.5,343L271,347.5L266.5,343Z"/>
+            <path d="M266.5,249L271,240L275.5,249L271,244.5L266.5,249Z"/>
+            <path d="M271,347.5L271,244.5" style="fill:none;stroke:black;stroke-width:2px;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,0.571429,188.964,7.85714)">
+        <g transform="matrix(1,-0,-0,1.75,-188.964,-13.75)">
+            <path d="M315.5,199L320,208L324.5,199L320,203.5L315.5,199Z"/>
+            <path d="M315.5,121L320,112L324.5,121L320,116.5L315.5,121Z"/>
+            <path d="M320,203.5L320,116.5" style="fill:none;stroke:black;stroke-width:2px;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,0.571429,60.964,-56.2059)">
+        <g transform="matrix(1,-0,-0,1.75,-60.964,98.3602)">
+            <path d="M231,100.5L240,96L231,91.5L235.5,96L231,100.5Z"/>
+            <path d="M202,100.5L193,96L202,91.5L197.5,96L202,100.5Z"/>
+            <path d="M235.5,96L197.5,96" style="fill:none;stroke:black;stroke-width:2px;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,268.084,-143)">
+        <g transform="matrix(1,-0,-0,1,-268.084,143)">
+            <path d="M535,228.5L544,224L535,219.5L539.5,224L535,228.5Z"/>
+            <path d="M409.069,101.359L400,97L408.929,92.36L404.499,96.93L409.069,101.359Z"/>
+            <path d="M539.5,224L464,224L464,96C464,96 419.066,96.702 404.499,96.93" style="fill:none;stroke:black;stroke-width:2px;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,188.084,16)">
+        <g transform="matrix(1,-0,-0,1,-188.084,-16)">
+            <path d="M313,363.5L304,368L313,372.5L308.5,368L313,363.5Z"/>
+            <path d="M619.5,249L624,240L628.5,249L624,244.5L619.5,249Z"/>
+            <path d="M308.5,368L624,368L624,244.5" style="fill:none;stroke:black;stroke-width:2px;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-176,40)">
+        <g transform="matrix(0.720721,0,0,0.0935673,200.793,86.5029)">
+            <rect x="10" y="16" width="222" height="342" style="fill:rgb(255,205,210);stroke:rgb(33,33,33);stroke-width:3.89px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,215.376,-48.4022)">
+            <g transform="matrix(14,0,0,14,114.792,155.993)">
+            </g>
+            <text x="30.54px" y="155.993px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:14px;">SMTP-Server</text>
+        </g>
+    </g>
+</svg>

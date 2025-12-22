@@ -1,0 +1,284 @@
+:root {
+  --ict-c-gymer: #3348b5;
+  --ict-c-unterricht: #41a7d1;
+  --ict-c-organisation: #74bf3d;
+  --ict-c-menschen: #fca400;
+  --ict-c-mygymer: #e8cc00;
+  --ict-c-support: var(--vp-c-text-3);
+}
+
+:root {
+  --vp-button-alt-text: var(--vp-c-text-1);
+  --vp-button-alt-bg: transparent;
+  --vp-button-alt-border: var(--vp-c-brand-1);
+  --vp-button-alt-hover-text: var(--vp-c-bg);
+  --vp-button-alt-hover-bg: var(--vp-c-brand-1);
+  --vp-button-alt-hover-border: var(--vp-c-brand-1);
+
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+
+  --vp-c-brand-1: var(--ict-c-gymer);
+  --vp-c-brand-2: color-mix(in srgb, var(--vp-c-brand-1), black 10%);
+  --vp-c-brand-3: color-mix(in srgb, var(--vp-c-brand-1), black 20%);
+  --vp-c-brand-soft: color-mix(in srgb, var(--vp-c-brand-1), white 80%);
+
+  --vp-c-tip-1: var(--ict-c-unterricht);
+  --vp-c-tip-2: color-mix(in srgb, var(--vp-c-tip-1), black 10%);
+  --vp-c-tip-3: color-mix(in srgb, var(--vp-c-tip-1), black 20%);
+  --vp-c-tip-soft: color-mix(in srgb, var(--vp-c-tip-1), white 88%);
+
+  --vp-c-note-1: var(--ict-c-gymer);
+  --vp-c-note-2: color-mix(in srgb, var(--vp-c-note-1), black 10%);
+  --vp-c-note-3: color-mix(in srgb, var(--vp-c-note-1), black 20%);
+  --vp-c-note-soft: color-mix(in srgb, var(--vp-c-note-1), white 10%);
+  --vp-custom-block-info-bg: color-mix(in srgb, var(--vp-c-note-1), white 90%);
+
+  --vp-c-success-1: var(--ict-c-organisation);
+  --vp-c-success-2: color-mix(in srgb, var(--vp-c-success-1), black 10%);
+  --vp-c-success-3: color-mix(in srgb, var(--vp-c-success-1), black 20%);
+  --vp-c-success-soft: color-mix(in srgb, var(--vp-c-success-1), white 80%);
+
+  --vp-c-important-1: var(--ict-c-gymer);
+  --vp-c-important-2: color-mix(in srgb, var(--vp-c-important-1), black 10%);
+  --vp-c-important-3: color-mix(in srgb, var(--vp-c-important-1), black 20%);
+  --vp-c-important-soft: color-mix(in srgb, var(--vp-c-important-1), white 80%);
+
+  --vp-c-warning-1: var(--ict-c-mygymer);
+  --vp-c-warning-2: color-mix(in srgb, var(--vp-c-warning-1), black 10%);
+  --vp-c-warning-3: color-mix(in srgb, var(--vp-c-warning-1), black 20%);
+  --vp-c-warning-soft: color-mix(in srgb, var(--vp-c-warning-1), white 88%);
+
+  --vp-c-danger-1: var(--ict-c-menschen);
+  --vp-c-danger-2: color-mix(in srgb, var(--vp-c-danger-1), black 10%);
+  --vp-c-danger-3: color-mix(in srgb, var(--vp-c-danger-1), black 20%);
+  --vp-c-danger-soft: color-mix(in srgb, var(--vp-c-danger-1), white 84%);
+
+  --vp-c-caution-1: var(--vp-c-red-1);
+  --vp-c-caution-2: var(--vp-c-red-2);
+  --vp-c-caution-3: var(--vp-c-red-3);
+  --vp-c-caution-soft: var(--vp-c-red-soft);
+}
+
+.dark {
+  --vp-c-brand-1: var(--ict-c-menschen);
+  --vp-c-brand-2: color-mix(in srgb, var(--vp-c-brand-1), black 10%);
+  --vp-c-brand-3: color-mix(in srgb, var(--vp-c-brand-1), black 20%);
+  --vp-c-brand-soft: color-mix(in srgb, var(--vp-c-brand-1), black 80%);
+  --vp-local-search-highlight-bg: var(--ict-c-mygymer);
+}
+
+.logo {
+  fill: var(--vp-c-text-1) !important;
+}
+
+ul.contains-task-list {
+  list-style: none !important;
+  margin-left: -1.25rem;
+}
+
+input[type="checkbox"] {
+  pointer-events: none;
+  accent-color: var(--vp-c-brand-1);
+}
+
+kbd {
+  font-size: 0.9rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
+}
+
+/* definition lists */
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 670px;
+}
+dl > * {
+  padding-top: 0.5em;
+}
+
+dt {
+  width: 30%;
+  font-weight: bold;
+  text-align: right;
+  max-height: 1px;
+}
+dt > img {
+  height: 1.4rem;
+  display: inline;
+}
+dd {
+  width: 60%;
+  padding-left: 1em;
+  margin-left: 0px;
+}
+dd + dd {
+  width: 100%;
+  padding-left: calc(30% + 1em);
+  padding-top: 4px;
+}
+dt + dt {
+  padding-right: 60%;
+}
+
+dt + dt + dd {
+  margin-top: -1.625em; /* own height including padding */
+  padding-left: calc(30% + 1em);
+}
+
+dd p,
+dd ul,
+dd ol {
+  line-height: inherit;
+}
+
+/* table */
+table {
+  display: table !important;
+}
+
+table,
+tr,
+th,
+td {
+  margin: auto !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+table > caption {
+  caption-side: top;
+  text-align: left;
+  font-size: small;
+  margin-bottom: 0.3rem;
+}
+
+td {
+  border-bottom: 1px solid var(--vp-c-border) !important;
+}
+
+thead th[colspan] {
+  border-bottom: 1px solid var(--vp-c-border) !important;
+}
+
+tr:last-child > td {
+  border-bottom: none;
+}
+
+tr > td[rowspan] {
+  border-bottom: none;
+}
+
+tbody {
+  border-top: 1px solid var(--vp-c-text-3) !important;
+  border-bottom: 1px solid var(--vp-c-text-3) !important;
+}
+
+thead {
+  border-top: 2px solid var(--vp-c-text-3) !important;
+}
+tbody:last-child {
+  border-bottom: 2px solid var(--vp-c-text-3) !important;
+}
+
+/* images */
+
+figure > img,
+p > img {
+  margin: 0 auto;
+  display: block;
+}
+
+figure {
+  margin: 2rem 0;
+}
+
+figure {
+  max-width: 100%;
+}
+
+figure > img,
+figure > a,
+figure > a > img {
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+  margin-top: 0.7rem;
+  margin-bottom: 0.3rem;
+  line-height: 1.2rem;
+}
+
+img.retina,
+img.retina2x {
+  zoom: 0.5;
+}
+
+img.retina3x {
+  zoom: 0.33333333;
+}
+img.retina4x {
+  zoom: 0.25;
+}
+
+.dark img.invert {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Custom blocks */
+
+.custom-block {
+  border-width: 0 0 0 5px !important;
+  border-radius: 0 8px 8px 0;
+  background-color: var(--vp-c-bg-soft) !important;
+}
+
+.custom-block.warning {
+  border-color: var(--vp-c-warning-1);
+}
+.custom-block.info {
+  border-color: var(--vp-c-note-1);
+}
+.custom-block.danger {
+  border-color: var(--vp-c-danger-1);
+}
+.custom-block.tip {
+  border-color: var(--vp-c-tip-1);
+}
+.custom-block.details {
+  border: 1px solid var(--vp-c-text-3);
+}
+
+html.dark .light-only {
+  display: none !important;
+}
+
+html:not(.dark) .dark-only {
+  display: none !important;
+}
+
+.medium-zoom-overlay {
+  z-index: 70;
+  background-color: color-mix(
+    in srgb,
+    var(--vp-c-bg-soft) 75%,
+    transparent
+  ) !important;
+  transition: opacity 0.3s !important;
+}
+
+.medium-zoom-image {
+  z-index: 71 !important;
+}
+
+.is-gui {
+  color: var(--vp-c-brand-3);
+}
