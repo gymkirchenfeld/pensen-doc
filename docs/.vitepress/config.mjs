@@ -16,9 +16,9 @@ const search = process.env.NODE_ENV !== "developement";
 export default withMermaid(
   defineConfig({
     lang: "de-CH",
-    title: "pensen-dooku",
-    base: "pensen",
-    description: "Dokumentation Pensen-Manager",
+    title: "pensen-docs",
+    base: "/pensen",
+    description: "Dokumentation des Pensenmanagers",
     markdown: {
       html: true,
       lineNumbers: true,

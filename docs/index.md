@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "pensen-dooku"
-  text: Dokumentation des Pensen-Managers
+  name: "pensen-docs"
+  text: Dokumentation des Pensenmanagers
   tagline: Gymnasien Kirchenfeld, Neufeld und Hofwil
 ---
