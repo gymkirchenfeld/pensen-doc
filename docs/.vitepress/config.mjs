@@ -17,6 +17,7 @@ export default withMermaid(
   defineConfig({
     lang: "de-CH",
     title: "pensen-dooku",
+    base: "pensen",
     description: "Dokumentation Pensen-Manager",
     markdown: {
       html: true,
