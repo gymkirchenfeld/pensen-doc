@@ -14,10 +14,10 @@ Ein Stufen-Objekt hat folgende Struktur:
 }
 ```
 
-| **Attribut**        | **Typ**                        | **Beschreibung**               |
-| ------------------- | ------------------------------ | ------------------------------ |
-| `code`              | Text                           | Kürzel                         |
-| `description`       | Text                           | Bezeichnung                    |
-| `payrollType`       | [Anstellungsart](payroll_type) | Anstellungsart für diese Stufe |
-| `id`                | Zahl                           | ID des Objekts                 |
-| `yearsToGraduation` | Zahl                           | Jahre bis zum Abschluss        |
+| **Attribut**        | **Typ**                       | **Beschreibung**               |
+| ------------------- | ----------------------------- | ------------------------------ |
+| `code`              | Text                          | Kürzel                         |
+| `description`       | Text                          | Bezeichnung                    |
+| `payrollType`       | [Anstellungsart](payrolltype) | Anstellungsart für diese Stufe |
+| `id`                | Zahl                          | ID des Objekts                 |
+| `yearsToGraduation` | Zahl                          | Jahre bis zum Abschluss        |

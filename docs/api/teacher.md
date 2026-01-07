@@ -19,18 +19,18 @@ Ein Lehrpersonen-Objekt hat folgende Struktur:
 }
 ```
 
-| **Attribut**     | **Typ**                         | **Beschreibung**                     |
-| ---------------- | ------------------------------- | ------------------------------------ |
-| `archived`       | Wahrheitswert                   | Ist das Objekt archiviert?           |
-| `birthday`       | Text                            | Geburtsdatum                         |
-| `code`           | Text                            | Kürzel                               |
-| `departments`    | [Fachgebiet](sujectcategory) [] | Liste der unterrichteten Fachgebiete |
-| `email`          | Text                            | E-Mail-Adresse                       |
-| `employeeNumber` | Text                            | Mitarbeiternummer                    |
-| `firstName`      | Text                            | Vorname                              |
-| `id`             | Zahl                            | ID des Objekts                       |
-| `lastName`       | Text                            | Nachname                             |
-| `title`          | Text                            | akademischer Titel                   |
+| **Attribut**     | **Typ**                       | **Beschreibung**                     |
+| ---------------- | ----------------------------- | ------------------------------------ |
+| `archived`       | Wahrheitswert                 | Ist das Objekt archiviert?           |
+| `birthday`       | Text                          | Geburtsdatum                         |
+| `code`           | Text                          | Kürzel                               |
+| `departments`    | [Fachgebiet](subjectcategory) | Liste der unterrichteten Fachgebiete |
+| `email`          | Text                          | E-Mail-Adresse                       |
+| `employeeNumber` | Text                          | Mitarbeiternummer                    |
+| `firstName`      | Text                          | Vorname                              |
+| `id`             | Zahl                          | ID des Objekts                       |
+| `lastName`       | Text                          | Nachname                             |
+| `title`          | Text                          | akademischer Titel                   |
 
 ## Lehrpersonen auflisten
 
