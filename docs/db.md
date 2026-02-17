@@ -18,8 +18,10 @@ title: Datenbank
 
 [`account`](db/account) (Konto)
 [`curriculum`](db/curriculum) (Lehrang)
-[`default_lessons`](db/default_lessons) (Lektionentafel)
+[`curriculum_grade`](db/curriculum_grade) (Lehrgang-Stufe)
 [`division`](db/division) (Organisationseinheit)
+[`lesson_table_entry`](db/lesson_table_entry) (Lektionentafel)
+[`lesson_type`](db/lesson_type) (Lektionstyp)
 [`school_class`](db/school_class) (Klasse)
 [`school_year`](db/school_year) (Schuljahr)
 [`subject`](db/subject) (Fach)

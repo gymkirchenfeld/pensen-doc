@@ -22,7 +22,8 @@ Die Attribute haben folgende Bedeutung:
 | `school_year_id`   | `integer`   | Fremdschlüssel auf [`school_year`](school_year) |
 | `subject_id`       | `integer`   | Fremdschlüssel auf [`subject`](subject)         |
 | `teacher_ids1`     | `integer[]` | Fremdschlüssel auf [`teacher`](teacher)         |
-| `teacher_ids1`     | `integer[]` | Fremdschlüssel auf [`teacher`](teacher)         |
+| `teacher_ids2`     | `integer[]` | Fremdschlüssel auf [`teacher`](teacher)         |
+| `curriculum_id`    | `integer`   | Fremdschlüssel auf [`curriculum`](curriculum)   |
 
 ## Erzeugung
 
@@ -45,9 +46,11 @@ create table pensen.course (
   subject_id integer not null,
   teacher_ids1 integer[],
   teacher_ids2 integer[],
+  curriculum_id integer not null,
   foreign key (school_year_id) references pensen.school_year (id) on update cascade,
   foreign key (grade_id) references pensen.grade (id) on update cascade,
-  foreign key (subject_id) references pensen.subject (id) on update cascade
+  foreign key (subject_id) references pensen.subject (id) on update cascade,
+  foreign key (curriculum_id) references pensen.curriculum (id) on update cascade,
 );
 grant delete, insert, select, update on table pensen.course to "pensenmanager";
 ```

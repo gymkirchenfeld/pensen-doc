@@ -6,17 +6,12 @@ Diese Tabelle enthält die Lehrgänge.
 
 Die Attribute haben folgende Bedeutung:
 
-| **Attribut**  | **Typ**     | **Beschreibung**                    |
-| ------------- | ----------- | ----------------------------------- |
-| `archived`    | `boolean`   | Ist das Objekt archiviert?          |
-| `code`        | `text`      | Kürzel                              |
-| `description` | `text`      | Bezeichnung                         |
-| `id`          | `integer`   | ID des Objekts                      |
-| `grade_ids`   | `integer[]` | Fremdschlüssel auf [`grade`](grade) |
-
-## Einschränkungen
-
-- Das Attribut `grade_ids` muss gültige IDs aus der Tabelle [`grade`](grade) enthalten.
+| **Attribut**  | **Typ**   | **Beschreibung**           |
+| ------------- | --------- | -------------------------- |
+| `archived`    | `boolean` | Ist das Objekt archiviert? |
+| `code`        | `text`    | Kürzel                     |
+| `description` | `text`    | Bezeichnung                |
+| `id`          | `integer` | ID des Objekts             |
 
 ## Erzeugung
 
@@ -29,8 +24,7 @@ grant usage on sequence pensen.curriculum_id to "pensenmanager";
 create table pensen.curriculum (
   id integer not null primary key,
   code character varying(10),
-  description character varying(100),
-  grade_ids integer[]
+  description character varying(100)
 );
 grant delete, insert, select, update on table pensen.curriculum to "pensenmanager"
 ```

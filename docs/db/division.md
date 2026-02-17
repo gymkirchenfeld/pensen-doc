@@ -12,7 +12,7 @@ Die Attribute haben folgende Bedeutung:
 | `description`    | `text`    | Bezeichnung                  |
 | `head_name`      | `text`    | Name Leiter:in               |
 | `head_signature` | `bytea`   | PNG-Bild der Unterschrift    |
-| `head_function`  | `text`    | Funktionsbezeichnung Leitung |
+| `head_title`     | `text`    | Funktionsbezeichnung Leitung |
 | `id`             | `integer` | ID des Objekts               |
 | `logo`           | `bytea`   | PNG-Bild des Logos           |
 | `grouping`       | `text`    | Gruppierung in Berichten     |
