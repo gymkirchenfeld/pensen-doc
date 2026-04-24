@@ -145,15 +145,3 @@ Ein Kurs kann nur aufgeteilt werden, wenn folgende Bedingungen erfüllt sind:
 - Der Kurs hat mehr als eine Schulklasse.
 
 Wenn die Bedingungen erfüllt sind, wird für jede Schulklasse des Kurses ein separater neuer Kurs erzeugt.
-
-`employment` (Anstellung) 🚧
-
-`job` (Auftrag) 🚧
-
-`note` (Notiz) 🚧
-
-`poolentry` (Pooleintrag) 🚧
-
-`posting` (Einzelbuchung) 🚧
-
-`workload` (Pensum) 🚧

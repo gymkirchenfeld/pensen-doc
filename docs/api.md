@@ -49,3 +49,9 @@ Diese JSON-Objekte werden im API verwendet, haben aber keinen eigenen Endpoint.
 ## Transaktionsdaten
 
 [`course`](api/course) (Kurs)
+[`employment`](api/employment) (Anstellung) 🚧
+[`job`](api/job) (Auftrag) 🚧
+[`note`](api/note) (Notiz) 🚧
+[`poolentry`](api/poolentry) (Pooleintrag) 🚧
+[`posting`](api/posting) (Einzelbuchung) 🚧
+[`workload`](api/workload) (Pensum) 🚧
