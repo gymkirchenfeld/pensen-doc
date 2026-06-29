@@ -8,13 +8,14 @@ Diese Tabelle kann durch die Anwendung nicht verändert werden.
 
 Die Attribute haben folgende Bedeutung:
 
-| **Attribut**            | **Typ**   | **Beschreibung**                |
-| ----------------------- | --------- | ------------------------------- |
-| `code`                  | `text`    | Kürzel                          |
-| `description`           | `text`    | Bezeichnung                     |
-| `id`                    | `integer` | ID des Objekts                  |
-| `lesson_based`          | `boolean` | lektionsbasierte Anstellungsart |
-| `saldo_resolving_order` | `integer` | Reihenfolge für Saldobuchungen  |
+| **Attribut**             | **Typ**   | **Beschreibung**                |
+| ------------------------ | --------- | ------------------------------- |
+| `code`                   | `text`    | Kürzel                          |
+| `description`            | `text`    | Bezeichnung                     |
+| `id`                     | `integer` | ID des Objekts                  |
+| `lesson_based`           | `boolean` | lektionsbasierte Anstellungsart |
+| `saldo_resolving_order`  | `integer` | Reihenfolge für Saldobuchungen  |
+| `ipb_correction_allowed` | `boolean` | IPB-Korrekturbuchungen erlaubt  |
 
 ## Erzeugung
 
@@ -26,7 +27,8 @@ create table pensen.payoll_type (
   code text not null unique,
   description text,
   lesson_based boolean not null default true,
-  saldo_resolving_order integer not null
+  saldo_resolving_order integer not null,
+  ipb_correction_allowed boolean not null default false
 );
 grant select on table pensen.payroll_type to "pensenmanager";
 ```

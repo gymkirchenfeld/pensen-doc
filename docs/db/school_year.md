@@ -14,16 +14,17 @@ Das Attribut `weeks` enthält die Anzahl Schulwochen des Schuljahrs. Diese Angab
 
 Die Attribute haben folgende Bedeutung:
 
-| **Attribut**          | **Typ**   | **Beschreibung**                                          |
-| --------------------- | --------- | --------------------------------------------------------- |
-| `archived`            | `boolean` | Ist das Schuljahr archiviert?                             |
-| `code`                | `text`    | Kurzbezeichnung                                           |
-| `description`         | `text`    | Beschreibung                                              |
-| `finalised`           | `boolean` | Ist die Planung abgeschlossen?                            |
-| `graduation_year`     | `integer` | Abschlussjahr                                             |
-| `id`                  | `integer` | ID des Objekts                                            |
-| `weeks`               | `integer` | Anzahl Schulwochen                                        |
-| `calculation_mode_id` | `integer` | Fremdschlüssel auf [`calculation_mode`](calculation_mode) |
+| **Attribut**            | **Typ**   | **Beschreibung**                                          |
+| ----------------------- | --------- | --------------------------------------------------------- |
+| `archived`              | `boolean` | Ist das Schuljahr archiviert?                             |
+| `code`                  | `text`    | Kurzbezeichnung                                           |
+| `description`           | `text`    | Beschreibung                                              |
+| `finalised`             | `boolean` | Ist die Planung abgeschlossen?                            |
+| `graduation_year`       | `integer` | Abschlussjahr                                             |
+| `id`                    | `integer` | ID des Objekts                                            |
+| `weeks`                 | `integer` | Anzahl Schulwochen                                        |
+| `calculation_mode_id`   | `integer` | Fremdschlüssel auf [`calculation_mode`](calculation_mode) |
+| `small_group_surcharge` | `integer` | Zusätzliche Wochenlektionen für Kleingruppen              |
 
 ## Erzeugung
 
@@ -42,6 +43,7 @@ create table pensen.school_year (
   description text,
   weeks integer not null,
   calculation_mode_id integer not null,
+  small_group_surcharge double precision not null default 2,
   foreign key (calculation_mode_id) references calculation_m (id) on update cascade on delete cascade
 );
 grant delete, insert, select, update on table pensen.school_year to "pensenmanager";

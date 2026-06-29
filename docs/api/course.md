@@ -21,6 +21,8 @@ Ein Kurs-Objekt hat folgende Struktur:
     "teachers1": [],
     "teachers2": [],
     "schoolClasses": [],
+    "smallGroup1": false,
+    "smallGroup2": false
   }
 }
 ```
@@ -38,6 +40,8 @@ Ein Kurs-Objekt hat folgende Struktur:
 | `subject`       | [Fach](subject)          | Fach                             |
 | `teachers1`     | [Lehrperson](teacher) [] | Lehrpersonen im ersten Semester  |
 | `teachers2`     | [Lehrperson](teacher) [] | Lehrpersonen im zweiten Semester |
+| `smallGroup1`   | Wahrheitswert            | Kleingruppe im ersten Semester   |
+| `smallGroup2`   | Wahrheitswert            | Kleingruppe im zweiten Semester  |
 
 Das Attribut `schoolClasses` ist nur relevant, wenn das Fach nicht klassenübergreifend ist.
 
@@ -90,6 +94,8 @@ Die folgenden Eigenschaften eines Kurses können geändert werden:
 - `lessons2`
 - `teachers1`
 - `teachers2`
+- `smallGroup1`
+- `smallGroup2`
 
 ## Kurs erstellen 🚧
 

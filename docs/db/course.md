@@ -24,6 +24,8 @@ Die Attribute haben folgende Bedeutung:
 | `teacher_ids1`     | `integer[]` | Fremdschlüssel auf [`teacher`](teacher)         |
 | `teacher_ids2`     | `integer[]` | Fremdschlüssel auf [`teacher`](teacher)         |
 | `curriculum_id`    | `integer`   | Fremdschlüssel auf [`curriculum`](curriculum)   |
+| `small_group1`     | `boolean`   | Kleingruppe im ersten Semester                  |
+| `small_group2`     | `boolean`   | Kleingruppe im zweiten Semester                 |
 
 ## Erzeugung
 
@@ -47,6 +49,8 @@ create table pensen.course (
   teacher_ids1 integer[],
   teacher_ids2 integer[],
   curriculum_id integer not null,
+  small_group1 boolean not null default false,
+  small_group2 boolean not null default false,
   foreign key (school_year_id) references pensen.school_year (id) on update cascade,
   foreign key (grade_id) references pensen.grade (id) on update cascade,
   foreign key (subject_id) references pensen.subject (id) on update cascade,
